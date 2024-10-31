@@ -1,0 +1,8 @@
+#!/usr/local/bin/myexpect
+
+spawn ./ask.sh
+expect "username"
+send "omar1"
+expect "password"
+send "pass1"
+expect eof
